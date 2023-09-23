@@ -1,0 +1,57 @@
+.h{
+    background-color:white;
+    border: 20px solid deeppink;
+    border-radius: 20px;
+}
+hr{
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: skyblue;
+}
+h1{
+    float:center;
+    background-color:skyblue;
+}
+input[type=text]{
+    padding: 12px 20px;
+    margin:8px 0;
+    box-sizing: border-box;
+    border:1px solid deepskyblue;
+    border-width: 3px;
+    border-color:deepskyblue;
+    outline:none;
+}
+input[type=text]:focus{
+    border: 1px solid skyblue;
+}
+label{
+    display: block;
+    clear: left;
+    width:500px;
+    text-align:center;
+   float:left; 
+}
+input{
+    display:inline-block;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 2000px;
+}
+img{
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+header{
+    background-color:skyblue;
+    padding:100px;
+    color:black;
+}
+.button{
+    display: grid;
+    padding: 10px;
+    align-items: center;
+}
